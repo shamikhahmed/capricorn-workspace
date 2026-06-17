@@ -17,3 +17,4 @@ cap-agents
 
 .DS_Store
 *.log
+.claude/
