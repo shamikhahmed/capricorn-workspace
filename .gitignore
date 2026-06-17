@@ -1,0 +1,19 @@
+# App repos (each has its own git remote)
+VaultCap/
+PulseCap/
+PrismCap/
+SteadyCap/
+LedgerCap/
+DeePonyCap/
+ScentCap/
+AuraCap/
+shamikhahmed.github.io/
+capricorn-tooling/
+
+# Symlinks into capricorn-tooling
+scripts
+shared
+cap-agents
+
+.DS_Store
+*.log
