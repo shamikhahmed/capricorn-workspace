@@ -12,12 +12,12 @@ Six offline-first applications built as device-sovereign software. **Capricorn r
 
 | Product | Tagline | Version | Live |
 |---------|---------|---------|------|
-| **VaultCap** | Encrypted life vault — finance, identity, documents (PK/UK/UAE) | 4.1.0 | [Open](https://shamikhahmed.github.io/VaultCap/) |
+| **VaultCap** | Encrypted life vault — finance, identity, documents (PK/UK/UAE) | 4.8.0 · **100/100** | [Open](https://shamikhahmed.github.io/VaultCap/) |
 | **PulseCap** | Performance OS — 300+ exercises, Smart Coach, body map | 4.5.1 | [Open](https://shamikhahmed.github.io/PulseCap/) |
 | **PrismCap** | 38 offline games — Pass & Play | 4.0.0 | [Open](https://shamikhahmed.github.io/PrismCap/) |
 | **SteadyCap** | Recovery OS — routines, medicines, habits, SOS | 2.0.0 | [Open](https://shamikhahmed.github.io/SteadyCap/) |
 | **LedgerCap** | Wealth OS — PSX, Meezan funds, Zakat, net worth | 2.3.0 | [Open](https://shamikhahmed.github.io/LedgerCap/) |
-| **DeePonyCap** | MLP collection tracker — child-friendly | 2.2.0 | [Open](https://shamikhahmed.github.io/DeePonyCap/) |
+| **DeePonyCap** | MLP collection tracker — child-friendly | 3.6.0 · **97/100** | [Open](https://shamikhahmed.github.io/DeePonyCap/) |
 
 ### Standalone Cap apps (not Capricorn)
 
@@ -54,6 +54,7 @@ Six offline-first applications built as device-sovereign software. **Capricorn r
 | **3 Enterprise** | Seed UI ×6, SECURITY.md, ENTERPRISE.md, trigger forecast, VERSION sync | ✅ |
 | **4 App Store** | Portfolio hub, Capacitor scaffolds, icon-1024, APP_STORE + IOS_INFO_PLIST | ✅ |
 | **5 Capricorn** | Company rebrand, repo rename, in-app + marketing pages, desktop polish (VaultCap) | ✅ |
+| **6 Quality 100** | VaultCap 100/100 (4.8.0) + DeePonyCap 97/100 (3.6.0) — full a11y, refactored architecture, CSS tokens, empty states, PWA install prompts | ✅ |
 
 ---
 
@@ -85,6 +86,9 @@ node scripts/sync-versions.mjs
 
 # Truth audit (marketing ↔ code)
 node scripts/truth-audit.mjs
+
+# Best practices registry (6 in-scope apps)
+# See capricorn-tooling/shared/BEST_PRACTICES_REGISTRY.md
 
 # Playwright smoke (run inside each app dir)
 cd VaultCap    && npx playwright test   # port 8765
